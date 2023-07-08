@@ -1,0 +1,48 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.topo {
+  text-align: center;
+  color: #DCD7C9;
+  background-color: #A27B5C;
+  margin-bottom: 50px;
+  padding-block: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #DCD7C9;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.bio {
+  text-align: center;
+  color: #DCD7C9;
+  margin-top: 16px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  
+}
